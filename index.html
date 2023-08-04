@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Responsive portfolio website</title>
+        <!--BoX icons-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!--custom ss -->
+        <link rel = "stylesheet" href="style.css"   >    
+    </head>
+    <body>
+        <header class = "header">
+            <a href="#" class="logo">portfolio</a>
+           
+            <i class='bx bx-menu' id = "menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home"class= "active">   Home</a>
+                <a href="#about">About</a> 
+                <a href="#services">Services</a> 
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">contact</a> 
+            </nav>
+        </header>  
+<!--home setion design-->
+
+<section class = "home" id ="home">
+    <div class = "home-content">
+        <h3>Hello,It's Me</h3>
+        <h1>Hiwot Abraha</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p> I'm a signal analist and frontend developer with extensive expertise for over 6 years.
+            My expertis to extract,analyz foreign radio communication and high level experience in web design and development knowledge.
+            producing quality work.</p>
+    <div class="social-media">
+         <a href="#"><i class='bx bxl-facebook' ></i></a>
+         <a href="#"><i class='bx bxl-twitter' ></i></a>
+         <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+         <a href="#"><i class='bx bxl-linkedin' ></i></a>
+    </div> 
+    <a href ="#"class="btn">Download CV </a> 
+</div> 
+<div class="home-img">
+    <img src="image/hiwi2.jpg  " alt="" >
+</div>
+ </section>
+ <!-- about setion design-->
+ <section class ="about" id ="about">
+       <div class="about-img">
+        <img src="image/ja.jpg" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Signal analyst!</h3>
+        <p>I graduated from Bahir Dar University in Electrical and Computer Engineering
+            i am working in INSA as a signal analyst supervisor for over 6 years and
+            i am currently in my second year of study at ACT.</p>
+            <a href="#" class="btn">Read More</a>
+    </div>
+ </section>
+ <!--services section design-->
+ <section class = "services" id= "services">
+    <h2 class="heading"> Our <span>services</span></h2>
+
+    <div class="Services-container">
+    <div class="services-box">
+        <i class='bx bx-signal-5'></i>
+        <h3>Signal Analyst</h3>
+        <p> collection and exploitation of electromagnetic signals, 
+            including communication and non-communication signals and 
+            examine and analyze foreign communications and activity to find intelligence.</p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+
+    <div class="services-box">
+        <i class='bx bx-code-alt'></i>
+        <h3>Web Developer</h3>
+        <p>Development of custom web pages.
+            Using current tehnologies and 
+            liberaries of the labor field.</p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+
+    <div class="services-box">
+        <i class='bx bx-paint'></i>
+        <h3>Graphic Design</h3>
+        <p>I make designs at the client's
+            request banner design posters
+            digital designs among others.</p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+    </div>
+ </section>
+ <!--port-->
+ <!--<div id="Portfolio">-->
+    <section class = "portfolio" id= "portfolio">
+    <div class="container">
+        <h2 class="heading"> Latest <span>Projcet</span></h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/w1.jpg" alt="">
+                <div class ="portfolio-layer">
+                    <h4>Digital Demodulation</h4>
+                    <p>digital signals demodulation using matlab</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="image/loadings.gif" alt="">
+                <div class ="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p> Restaurant management system</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div> 
+            <div class="work">
+                <img src="image/signt.jpg" alt="">
+                <div class ="portfolio-layer">
+                    <h4>Mathematical algorithms</h4>
+                    <p>preparing different mathematical algorithms for demodulation</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div> 
+        </div>
+    </div>
+ </div>
+    </div> 
+ </section>
+ <!-- contact section design-->
+ <section class = "contact" id= "contact">
+    <h2 class="heading"> contact <span>Me!</span></h2>
+    
+    <form action="#" >
+        <div class="inpit-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+        <div class="inpit-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Address">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Massege"></textarea>
+        <input type="submit" value="send Message" class="btn">
+    </form>
+    </section> 
+    <!--footer design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>copyright &copy;2023 by Hiwot| All Rights Reserved.</p>
+        </div>
+        <div class="foooter-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+
+        </div>
+    </footer>
+
+    <!---------scroll reveal ---->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed js-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!--custem js-->
+    <script src="script.js"></script>
+        
+      
+
+    </body>
+    </html> 
